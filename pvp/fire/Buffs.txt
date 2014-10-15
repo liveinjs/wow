@@ -1,0 +1,2 @@
+#showtooltip 
+/castsequence [@player] reset=4 Arcane Brilliance, Molten Armor
