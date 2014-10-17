@@ -1,0 +1,21 @@
+卡蓝条属于补丁下载不完全
+解决方法
+1.打开战网登陆页面先不要进游戏
+2.找到魔兽文件夹下面的WTF文件夹里面的Config.wtf文件，用记事本打开，然后把下面这些复制进去覆盖
+SET portal "CN"
+SET textLocale "zhCN"
+SET audioLocale "enUS"
+SET agentUID "wow_zhcn"
+SET installLocale "enUS"
+3.然后进游戏
+4.卡蓝条
+5.强退游戏
+6.再开战网登陆器，就会下载补丁，下完就能进了
+如果还卡就将WTF文件夹Account文件夹整个删除
+Data文件夹data文件夹里的shmem文件删除
+关闭战网登陆器，关闭游戏，
+将C\Progrmdata\Battle.net的Battle.net文件夹删除（win7.8）
+C\Documents and Settings\All Users\Application Data\Battle.net的文件夹删除（XP）
+这两个是隐藏文件，需要把显示隐藏文件打开才可以看到。
+做完这些后进入魔兽世界文件夹用World of Warcraft Launcher.exe启动魔兽世界
+步骤不要乱
