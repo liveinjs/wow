@@ -1,5 +1,0 @@
-#showtooltip
-/castsequence reset=0.5 
-/castsequence reset=0.5 1,2,寒冬号角,4 
-/castsequence reset=0.5 1,心脏打击,3,4 
-/castsequence reset=0.5 符文打击,2,3,4
