@@ -1,0 +1,3 @@
+#showtooltip
+/cast [target=player,mod:shift] 超级新星;
+/cast [target=mouseover,exists] 超级新星;
