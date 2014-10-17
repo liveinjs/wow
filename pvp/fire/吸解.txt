@@ -1,0 +1,4 @@
+#showtooltip
+/cast [target=player,mod:shift] 解除诅咒;
+/cast [target=mouseover,harm,exists] 法术吸取;
+/cast [target=mouseover,help,exists] 解除诅咒;
