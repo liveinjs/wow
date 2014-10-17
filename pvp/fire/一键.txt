@@ -1,6 +1,6 @@
 #showtooltip
-/castsequence reset=0.5 炎爆术,,;
-/castsequence reset=0.5 ,炼狱冲击,;
+/castsequence reset=0.5 炼狱冲击,,;
+/castsequence reset=0.5 ,炎爆术,;
 /castsequence reset=0.5 ,,,燃烧;
 
 
