@@ -1,2 +1,2 @@
 #showtooltip
-/cast [target=mouseover,exists] 法术反制;
+/cast [target=mouseover,exists] 法术反制;法术反制;
