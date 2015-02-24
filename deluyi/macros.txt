@@ -1,2 +1,2 @@
-showtooltip [stance:5]星火术；[stance:3]割伤；[stance:1]横扫
-/cast [stance:5/4]星火术；[stance:3]割伤；[stance:1]横扫;
+showtooltip [stance:0]愤怒；[stance:3]割伤；[stance:1]横扫
+/cast [stance:0] 愤怒；[stance:3]割伤；[stance:1]横扫;
