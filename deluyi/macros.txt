@@ -1,0 +1,2 @@
+showtooltip [stance:1]星火术；[stance:2]割伤；[stance:3]割裂
+/cast [stance:1]星火术；[stance:2]割伤；[stance:3]割裂
