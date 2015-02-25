@@ -1,0 +1,3 @@
+/target arena1
+/target arena2
+/target arena3
