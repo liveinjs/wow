@@ -1,0 +1,5 @@
+　　#showtooltip 潜行
+　　/cast [target=player] 回春术
+　　/cast [nocombat,nostealth]潜行
+　　/stopattack
+　　/睡觉
