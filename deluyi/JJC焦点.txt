@@ -1,0 +1,3 @@
+/focus arena1
+/focus arena2
+/focus arena3
