@@ -10,3 +10,10 @@
 
 
 
+#showtooltip
+/cast [stance:1] !猎豹形态
+/cast [stance:2] !熊形态
+/cast [stance:4] !枭兽形态
+
+
+
