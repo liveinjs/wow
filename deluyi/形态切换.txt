@@ -1,5 +1,4 @@
 #showtooltip
-/cast [nocombat] !旅行行态
 /cast [nostance:1] !猎豹形态
 /cast [stance:1] !熊形态
 
@@ -7,6 +6,7 @@
 
 #showtooltip
 /cast [nostance:4] !枭兽形态
+/cast [nocombat] !旅行行态
 
 
 
