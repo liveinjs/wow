@@ -7,8 +7,9 @@
 
 
 #showtooltip
-/cast [nostance:4] !枭兽形态
 /cast [nocombat] !旅行行态
+/cast [nostance:4] !枭兽形态
+
 
 
 #showtooltip
