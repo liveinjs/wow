@@ -11,6 +11,12 @@
 /cast [nocombat] !旅行行态
 
 
+#showtooltip
+/cast [stance:4] !枭兽形态
+/cast [stance:2] !猎豹形态
+/cast [stance:1] !熊形态
+
+
 
 
 
