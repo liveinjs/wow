@@ -1,0 +1,3 @@
+#showtooltip 激怒
+/cast 激怒
+/cast 狂暴回复
