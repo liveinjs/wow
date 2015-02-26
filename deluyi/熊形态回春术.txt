@@ -1,3 +1,4 @@
 /cast 狂暴回复
 /cast 回春
 /cast 低吼
+/cast 狂暴回复
