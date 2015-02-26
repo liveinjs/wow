@@ -1,8 +1,8 @@
 #showtooltip
-/cast [nostance:1] !猎豹形态
-/cast [stance:1] !熊形态
+/cast !熊形态
 
-
+#showtooltip
+/cast !猎豹形态
 
 #showtooltip
 /cast [nostance:4] !枭兽形态
@@ -10,10 +10,7 @@
 
 
 
-#showtooltip
-/cast [stance:1] !猎豹形态
-/cast [stance:2] !熊形态
-/cast [stance:4] !枭兽形态
+
 
 
 
