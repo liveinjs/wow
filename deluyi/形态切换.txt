@@ -2,9 +2,6 @@
 /cast !猎豹形态
 #showtooltip
 /cast !熊形态
-#showtooltip
-/cast !枭兽形态
-
 
 #showtooltip
 /cast [nocombat] !旅行行态
