@@ -21,3 +21,4 @@
 
 http://www.wowwiki.com/index.php/World_of_Warcraft_API#Movement
 http://tieba.baidu.com/p/391735574
+http://www.vanillawow.cc/wow-api-chinese-edition/
