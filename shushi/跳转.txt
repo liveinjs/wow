@@ -15,6 +15,12 @@
 /script TurnLeftStop(GetTime()*1000+120);ToggleAutoRun();
 
 
+#转身跑2秒
+/script TurnLeftStart(); 
+/in 0.6 /script TurnLeftStop();MoveForwardStart();
+/in 2 MoveForwardStop();
+
+
 #转身跑
 /script TurnLeftStart(); 
 /in 0.6 /script TurnLeftStop();ToggleAutoRun();
