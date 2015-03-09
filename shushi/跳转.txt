@@ -8,3 +8,7 @@
 /script Jump(); 
 /script TurnLeftStart(GetTime()); 
 /script TurnLeftStop(GetTime()*1000+12 
+
+
+
+http://www.wowwiki.com/index.php/World_of_Warcraft_API#Movement
