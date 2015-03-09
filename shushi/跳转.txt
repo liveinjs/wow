@@ -2,3 +2,9 @@
 /script TurnLeftStart(GetTime());
 /script TurnLeftStop(GetTime()*1000+800);
 /castsequence 冰霜新星,闪现
+
+
+/script ToggleAutoRun() 
+/script Jump(); 
+/script TurnLeftStart(GetTime()); 
+/script TurnLeftStop(GetTime()*1000+12 
