@@ -7,8 +7,13 @@
 /script ToggleAutoRun()  #MoveForwardStart()  MoveForwardStop() 
 /script Jump(); 
 /script TurnLeftStart(GetTime()); 
-/script TurnLeftStop(GetTime()*1000+12 
+/script TurnLeftStop(GetTime()*1000+120) 
 
 
+
+#转身跑
+/script ToggleAutoRun()  #MoveForwardStart()  MoveForwardStop() 
+/script TurnLeftStart(GetTime()); 
+/script TurnLeftStop(GetTime()*1000+120)
 
 http://www.wowwiki.com/index.php/World_of_Warcraft_API#Movement
