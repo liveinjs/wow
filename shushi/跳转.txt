@@ -17,7 +17,7 @@
 
 #180度转身
 /script TurnLeftStart(); 
-/in 0.6 /script TurnLeftStop();
+/in 0.8 /script TurnLeftStop();
 
 #转身跑
 /script TurnLeftStart(); 
