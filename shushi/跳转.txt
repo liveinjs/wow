@@ -14,5 +14,10 @@
 /script TurnLeftStart(GetTime()); 
 /script TurnLeftStop(GetTime()*1000+120);ToggleAutoRun();
 
+
+#转身跑
+/script TurnLeftStart(); 
+/in 0.6 /script TurnLeftStop();ToggleAutoRun();
+
 http://www.wowwiki.com/index.php/World_of_Warcraft_API#Movement
 http://tieba.baidu.com/p/391735574
