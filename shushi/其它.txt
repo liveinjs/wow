@@ -1,0 +1,89 @@
+有一些 您可以先用用 不行可以联系我QQ527853601
+
+1.召唤宏:/y表示喊话,/s是普通说话,想怎么说可以自己改。%t表示你的目标 
+　　/cast 召唤仪式 
+　　/y 正在召唤 <<<<===%t===>>>>帮忙点门地兄弟，辛苦费找 %t 要，谢谢合作！ 
+　　 
+　　2。绷带宏：同样的（0，2）表示第一个背包的第2个位置。这个宏有个好处，你不必改变当前目标自动对你使用绷带。比如打怪时，点下宏就自动给自己绷带 
+　　/script UseContainerItem(0, 2); 
+　　/script if( SpellIsTargeting()) then SpellTargetUnit("player" ); end 
+　　/script TargetLastEnemy() 
+　　3。 带狗宏：最强的带狗的宏,效果:直接吃自己身上的DEBUFF,你点选的目标一直都不会变化,当然,没目标就是直接吃自己DEBUFF了。不过想吃对方的增益魔法还需要手动。第2行命令中（4）指的是狗的吞噬魔法技能。这个技能在从左数第几个位置就是几了 
+　　/script TargetUnit("player"); 
+　　/script CastPetAction(4); 
+　　/script TargetLastEnemy(); 
+　　4。一键0.5秒招虚空的宏 
+　　/cast 恶魔支配 
+　　/scr ipt SpellStopCasting(); 
+　　/cast 召唤虚空行者 
+　　说明：同样的道理，一键使用诅咒增幅+疲劳诅咒的宏为： 
+　　/cast 诅咒增幅 
+　　/scri pt SpellStopCasting(); 
+　　/cast 疲劳诅咒 
+腐蚀 
+/script PetAttack(); 
+/施放 腐蚀术(等级 X) 
+使宝宝对目标进行攻击 同时施放腐蚀术 
+吸取 
+/script if (UnitHealth("target")>200) then CastSpellByName("吸取生命(等级 X)") else 
+CastSpellByName("吸取灵魂(等级 X)"); end 
+当生命值大于200时吸取生命 否则吸取灵魂（获得碎片） 
+
+/script TargetUnit("player");CastPetAction(4);TargetLastEnemy(); 
+这个宏的功能就是点一下，地狱犬就会对自己放吞噬魔法，而且有个优点就是不必改变目标，也就是说你现在的目标是敌人，但你用这个宏，地狱犬就会自动对你释放吞噬这个魔法，这个在对付法师的变羊效果极佳 
+
+/script TargetNearestEnemy({reverse});CastSpellByName("诅咒增幅");CastSpellByName("疲劳诅咒");ToggleAutoRun(); 
+这个宏的作用是在你被偷袭的时候，点一下，他会自动帮你切换到偷袭你的目标，并对他释放诅咒增幅和疲劳诅咒，然后逃跑，由于是宏命令，所以这几个动作都是瞬间完成的，比你一个一个按键盘要快多了 
+术士魅魔诱惑专用宏 
+/p 女王正在魅惑%t，请大家不要打它，以免魅惑中断~！ 
+/script PetAttack();CastPetAction(6); 
+/施放 暗影诅咒（等级1） 
+1、不改变选中的目标，为自己绷带，副本pk很有用 
+
+　　/script TargetUnit(player);UseAction(55);TargetLastTarget(); 
+
+　　参数ActionSlot：1~72，第1动作条的第1格为1、第12格为12， 
+
+　　第2动作条的第1格为13、第12格为24，……， 
+
+　　第6动作条的第1格为61、第12格为72。 
+
+　　第3动作条是右侧动作条，第4动作条是右2动作条， 
+
+　　第5动作条是底部右侧动作条，第6动作条是底部左侧动作条。 
+
+　　我的绷带快捷栏的位置是55，不一样的话改一下，把数字改为你的绷带位置就好了。 
+2、地狱犬吃减益法术的宏，pk杀人必备 
+
+　　/script TargetUnit(player);CastPetAction(4);TargetLastEnemy(); 
+
+3、召唤队友 大家有了，这个是我自己做的宏 
+
+　　/团队 我正在召唤**%t**,请两名队友点传送门，不要移动，动了是猪。 
+
+　　/p 我正在召唤**%t**,请两名队友点传送门，不要移动，动了是猪。 
+
+　　/施放 召唤仪式 
+4、绑定 灵魂 
+
+　　/团队 ** %t**，我正在绑定你脆弱的灵魂，黑暗赐予你力量吧！！！雄起！！！ 
+
+　　/p **%t**，我正在绑定你脆弱的灵魂，黑暗赐予你力量吧！！！雄起！！！ 
+
+　　/script UseAction(26); 
+
+　　括号里的数字为快捷栏做好的灵魂石的位置数，不一样自己改 
+5.如果目标生命大于20，释放抽取生命法术，否则使用灵魂抽取。 
+　　/script if (UnitHealth("target")>20) then CastSpellByName("Drain Life(Rank X)") else 
+
+　　CastSpellByName("Drain Soul(Rank 2)") end; 
+
+6.虚弱诅咒版本 
+　　/script if (UnitMana("target")>0) then CastSpellByName("Curse of Tongues(Rank X)") else 
+
+　　CastSpellByName("Curse of Weakness(Rank X)") end; 
+
+7.首先将目标转为拖怪手或者坦克正在攻击的目标，然后命令宠物向前攻击，跟着一个虚弱诅咒。 
+　　/assist 队伍中的拖怪手或者坦克的名字 
+　　/script PetAttack(); 
+　　/cast Curse of Weakness (Rank X)
