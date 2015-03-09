@@ -10,9 +10,8 @@
 
 
 
-#转身跑
-/script ToggleAutoRun()  #MoveForwardStart()  MoveForwardStop() 
+#转身跑 MoveForwardStart()  MoveForwardStop() 
 /script TurnLeftStart(GetTime()); 
-/script TurnLeftStop(GetTime()*1000+120)
+/script TurnLeftStop(GetTime()*1000+120);ToggleAutoRun();
 
 http://www.wowwiki.com/index.php/World_of_Warcraft_API#Movement
