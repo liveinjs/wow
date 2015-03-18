@@ -25,5 +25,9 @@
 /cast 英勇投掷;
 /cast 乘胜追击;
 
+#showtooltip 旋风斩
+/cast [target=mouseover] 断筋
+/cast 旋风斩;
+
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
