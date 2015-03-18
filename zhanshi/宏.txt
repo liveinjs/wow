@@ -9,6 +9,10 @@
 /cancelAura 保护之手;
 
 
+#showtooltip 撕裂
+/cast 冲锋;
+/cast 撕裂;
+
 #showtooltip 致死打击
 /cast 冲锋;
 /cast 致死打击;
