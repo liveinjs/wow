@@ -14,8 +14,9 @@
 /cast 撕裂;
 
 #showtooltip 致死打击
-/cast 冲锋;
-/cast 致死打击;
+/castsequence reset=0 0,乘胜追击;
+/use 致死打击; 
+/use 投掷;
 
 
 #showtooltip 斩杀
