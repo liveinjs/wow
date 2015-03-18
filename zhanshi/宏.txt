@@ -11,6 +11,7 @@
 #showtooltip
 /cast 断筋;
 /cast 撕裂;
+/cast 投掷;
 
 #showtooltip
 /cast 英勇投掷;
