@@ -1,4 +1,4 @@
-#showtooltip
+#showtooltip 冲锋
 /cast [help] 防御姿态;
 /cast [help] 援护;
 /cast 冲锋;
