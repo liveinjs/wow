@@ -40,5 +40,14 @@
 /cancelaura 利刃风暴
 /cancelaura 保护之手
 
+
+#showtooltip 鲁莽
+/cast 鲁莽
+/cast 天神下凡
+/cast 血性狂暴
+/cast 饰品名字
+/cancelaura 利刃风暴
+/cancelaura 保护之手
+
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
