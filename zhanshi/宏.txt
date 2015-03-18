@@ -14,7 +14,7 @@
 
 #showtooltip 致死打击
 /cast 冲锋;
-/use 致死打击; 
+/cast 致死打击; 
 
 
 #showtooltip 斩杀
