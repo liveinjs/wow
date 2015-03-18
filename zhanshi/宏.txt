@@ -2,15 +2,15 @@
 /cast [help] 防御姿态;
 /cast [help] 援护;
 /cast 冲锋;
-/cast 斩杀;
+/cast 断筋;
+/cast 撕裂
 /startattack;
 /cancelaura 剑刃风暴;
 /cancelAura 保护之手;
 
 
 #showtooltip
-/cast 断筋;
-/cast 撕裂;
+/cast 斩杀
 /cast 投掷;
 
 #showtooltip
