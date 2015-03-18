@@ -29,5 +29,10 @@
 /cast [target=mouseover] 断筋
 /cast 旋风斩;
 
+#showtooltip 断筋
+/cast [target=mouseover, harm, exists,nodead]断筋;
+/cast 断筋;
+
+
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
