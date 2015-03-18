@@ -33,6 +33,12 @@
 /cast [target=mouseover, harm, exists,nodead]断筋;
 /cast 断筋;
 
+#showtooltip 巨人打击
+/cast 巨人打击
+/cast 嘲讽
+/cast 防御姿态
+/cancelaura 利刃风暴
+/cancelaura 保护之手
 
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
