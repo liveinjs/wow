@@ -19,6 +19,7 @@
 
 #showtooltip 斩杀
 /cast 冲锋;
+/cast [target=mouseover] 斩杀;
 /cast 斩杀;
 
 #showtooltip
