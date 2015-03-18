@@ -1,6 +1,9 @@
 #showtooltip
 /cast [help]援护;冲锋;
 /cast 斩杀;
+/startattack;
+/cancelaura 剑刃风暴;
+/cancelAura 保护之手;
 
 
 #showtooltip
