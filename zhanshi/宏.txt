@@ -9,9 +9,9 @@
 /cancelAura 保护之手;
 
 
-#showtooltip
+#showtooltip 致死打击
+/cast 冲锋;
 /cast 致死打击;
-/cast 投掷;
 
 
 #showtooltip 斩杀
