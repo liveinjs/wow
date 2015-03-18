@@ -6,3 +6,7 @@
 #showtooltip
 /cast 断筋;
 /cast 撕裂;
+
+#showtooltip
+/cast 英勇投掷;
+/cast 乘胜追击;
