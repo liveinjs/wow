@@ -13,6 +13,11 @@
 /cast 致死打击;
 /cast 投掷;
 
+
+#showtooltip 斩杀
+/cast 冲锋;
+/cast 斩杀;
+
 #showtooltip
 /cast 英勇投掷;
 /cast 乘胜追击;
