@@ -1,0 +1,8 @@
+#showtooltip
+/cast [help]援护;冲锋;
+/cast 斩杀;
+
+
+#showtooltip
+/cast 断筋;
+/cast 撕裂;
