@@ -58,5 +58,12 @@
 /cancelaura 利刃风暴
 /cancelaura 保护之手
 
+#showtooltip 英勇跳跃
+/cast 英勇跳跃
+/cleartarget
+/cancelaura 利刃风暴
+/cancelaura 保护之手
+
+
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
