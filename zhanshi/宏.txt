@@ -13,3 +13,6 @@
 #showtooltip
 /cast 英勇投掷;
 /cast 乘胜追击;
+
+#showtooltip
+/use [target=player] 厚灵纹布绷带;
