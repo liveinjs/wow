@@ -3,14 +3,12 @@
 /cast [help] 援护;
 /cast 冲锋;
 /cast 断筋;
-/cast 撕裂;
 /startattack;
 /cancelaura 剑刃风暴;
 /cancelAura 保护之手;
 
 
 #showtooltip 撕裂
-/cast 冲锋;
 /cast 撕裂;
 
 #showtooltip 致死打击
