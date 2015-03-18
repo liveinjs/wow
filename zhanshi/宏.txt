@@ -1,5 +1,7 @@
 #showtooltip
-/cast [help]援护;冲锋;
+/cast [help] 防御姿态;
+/cast [help] 援护;
+/cast 冲锋;
 /cast 斩杀;
 /startattack;
 /cancelaura 剑刃风暴;
