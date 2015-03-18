@@ -49,5 +49,14 @@
 /cancelaura 利刃风暴
 /cancelaura 保护之手
 
+#showtooltip 集结呐喊
+/cast 集结呐喊
+/cast 防御姿态
+/cast 盾牌屏障
+/cast 治疗石
+/cast 饰品名字
+/cancelaura 利刃风暴
+/cancelaura 保护之手
+
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
