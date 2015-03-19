@@ -68,3 +68,10 @@
 
 #showtooltip
 /use [target=player] 厚灵纹布绷带;
+
+
+#showtooltip 撕裂
+/cast 撕裂
+/script Stopwatch_Play()
+/sw :18
+/in 18 /sw
