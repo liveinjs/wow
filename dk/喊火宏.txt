@@ -1,0 +1,4 @@
+
+#showtooltip 死亡之握
+/施放 死亡之握
+/script if UnitSex("target")==3 then g="女" else g="男" end;SendChatMessage("注意集火:{rt8}"..UnitName("target").." 职业:"..UnitClass("target").." 血量:"..UnitHealth("target").." 性别:"..g.."","yell");SetRaidTarget("target",8);
