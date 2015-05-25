@@ -1,0 +1,4 @@
+#showtooltip 冰霜新星
+/use 原祖角斗士的统御徽章
+/use 冰冷血脉
+/cast [@focus,mod:ctrl,nodead][@mouseover,exists,harm,nodead][harm,exists,nodead] 冰霜新星
