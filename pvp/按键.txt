@@ -1,0 +1,20 @@
+#18单键
+1,2,3,4,5
+q,e,r,t,
+s,f,g,h
+z,x,c,v,b
+鼠标向上，鼠标向下
+
+#14 Alt组合键
+alt+1,alt+2,alt+3
+alt+q,alt+w,alt+e,alt+r,
+alt+s,alt+d,alt+f,
+alt+c,alt+v
+alt+鼠标向前,alt+鼠标向后
+
+#14 Shift组合键
+shift+q,shift+w,shift+e,shift+r,shift+t
+shift+a,shift+s,shift+d,shift+f,
+shift+c,shift+v,shift+空格
+shift+鼠标向前,shift+鼠标向后
+
