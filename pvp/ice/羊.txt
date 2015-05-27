@@ -1,8 +1,8 @@
 /stopcasting
 /cast 变形术
 /script Stopwatch_Play()
-/sw :18
-/in 18  /sw
+/sw :6
+/in 6  /sw
 
 
 ####满羊， 二羊，三羊读条时间点
