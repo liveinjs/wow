@@ -1,0 +1,10 @@
+/stopcasting
+/cast 变形术
+/script Stopwatch_Play()
+/sw :18
+
+
+####满羊， 二羊，三羊读条时间点
+满羊：  0秒;
+二羊：  12秒;
+三羊：  8秒;
