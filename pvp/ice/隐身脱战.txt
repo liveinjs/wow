@@ -1,0 +1,2 @@
+/petfollow
+/cast 隐身术
