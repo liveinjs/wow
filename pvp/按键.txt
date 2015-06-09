@@ -16,7 +16,7 @@ z,s,x,b,t,~,h  # ,徽章,霜火,彗星风暴,增益buff,镜像,水宝宝,
 
 #条4
 ,shift+w 工程腰带
-,shift+a
+,shift+a 焦点宏
 ,shift+s 时光扭曲
 ,shift+d 寒冰护身
 ,shift+f 工程披风
