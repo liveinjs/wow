@@ -2,9 +2,9 @@
 
 
 #18单键
-1,2,3,4,5
-q,e,r,t,
-s,f,g,h
+1,2,3,4,5 //吹风,冰枪,寒冰箭,冰环,宝珠,
+q,e,r,t, //切条,急速冷却,冰箱,冰冻术
+s,f,g,h  //隐身,闪现,火跑,
 z,x,c,v,b
 鼠标向上，鼠标向下
 
@@ -20,4 +20,3 @@ shift+q,shift+w,shift+e,shift+r,shift+t
 shift+a,shift+s,shift+d,shift+f,
 shift+c,shift+v,shift+空格
 shift+鼠标向前,shift+鼠标向后
-
