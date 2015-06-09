@@ -12,7 +12,7 @@ q,e,r,f,g,c,v # 羊,吸,解,披风,腰带,绷带,面包,
 
 
 # 条3
-~ t,s,h,z,x,b # 镜像,水宝宝,霜火,,徽章,彗星风暴,增益buff
+~ t,s,z,x,b # 镜像,水宝宝,霜火,徽章,彗星风暴,增益buff
 
 #条4
 shift+w,shift+a,shift+s,shift+d,shift+f,
