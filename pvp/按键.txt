@@ -15,8 +15,8 @@ q,e,r,f,g,c,v # 羊,吸,解,缓落术,腰带,绷带,面包,
 z,s,x,b,t,~,h  # ,徽章,霜火,彗星风暴,增益buff,镜像,水宝宝,
 
 #条4
-,shift+w 工程披风
+,shift+w 工程腰带
 ,shift+a
 ,shift+s 时光扭曲
 ,shift+d 寒冰护身
-,shift+f 
+,shift+f 工程披风
