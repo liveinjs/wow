@@ -1,0 +1,31 @@
+1.焦点冰链
+#showtooltip
+/cast [@focus,harm,nodead] []寒冰锁链
+
+2.宝宝喂食
+#showtooltip 
+/cast [target=pet] 凋零缠绕
+
+3.巫妖自救
+#showtooltip
+/cast !巫妖之躯
+/cast [@player] 凋零缠绕
+
+4.焦点打断 
+#showtooltip 心灵冰冻
+/cast [target=focus,exists]心灵冰冻 ; 心灵冰冻
+
+5.切脸
+/cast 邪恶灵气
+/cast 鲜血灵气
+
+6.脓疮绑BB攻击
+#showtooltip 脓疮打击
+/startattack 
+/cast 脓疮打击
+/cast [@pettarget,harm] [] 爪击
+
+
+7.焦点绞杀(可改窒息)
+#showtooltip
+/cast [@focus,harm,nodead] []绞袭 
