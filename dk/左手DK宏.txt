@@ -1,0 +1,195 @@
+#showtooltip 蜷缩
+/cast 蜷缩
+
+宝宝盾墙宏
+  黑石重盔 黑石肩铠 黑石胸甲 黑石护手 黑石束带 黑石腿甲 黑石护      地底族群之
+ 
+#showtooltip 撕扯
+/petattack
+/cast [modifier:shift,target=focus,exists]跳跃;跳跃
+/cast [modifier:shift,target=focus,exists] 撕扯;撕扯
+
+宝宝咬晕+跳跃宏  按shift+宏给焦点
+
+#showtooltip 召唤石像鬼
+/cast 召唤石像鬼
+/cast 血性狂怒(种族特长)
+/cast 原祖争斗者的胜利徽章
+
+天鬼爆发宏
+
+
+#showtooltip 寒冰锁链
+/cast [@focus,harm,exists,modifier:ctrl] 寒冰锁链; 
+/cast [@mouseover, harm, exists] 寒冰锁链; 
+/cast 寒冰锁链
+
+优先鼠标指向 按ctrl+宏给焦点 直接按给当前目标
+
+
+#showtooltip 巫妖之躯
+/cast [target=player] 凋零缠绕
+/cast 巫妖之躯
+巫妖吃大便宏
+
+
+#showtooltip 凋零缠绕
+/cast 凋零缠绕
+/startattack 
+/petattack
+
+绑定宝宝攻击宏
+
+
+#showtooltip 天灾打击
+/cast 活力分流
+/cast 天灾打击
+/startattack 
+/petattack 
+
+绑定宝宝攻击宏
+
+
+/cast 死亡虹吸
+/cast 活力分流
+
+虹吸分流宏
+
+#showtooltip 冰冷触摸
+/cast 活力分流
+/cast 冰冷触摸
+/startattack 
+/petattack 
+
+绑定宝宝攻击宏
+
+
+#showtooltip 暗影打击
+/cast 暗影打击
+/startattack 
+/petattack
+
+绑定宝宝攻击宏
+
+
+#showtooltip 绞袭
+/cast 活力分流
+/cast [@focus,harm,exists,modifier:alt] 绞袭; 
+/cast [@mouseover, harm, exists] 绞袭; 
+/cast 绞袭
+
+优先鼠标指向 按alt+宏给焦点 直接按给当前目标
+
+
+#showtooltip 心灵冰冻
+/cancelAura 保护之手
+/cast [@focus,harm,exists,modifier:Shift] 心灵冰冻; 
+/cast 心灵冰冻
+
+按Shift+宏给焦点 直接按给当前 附带取消保护
+
+
+/cast 冰霜之柱
+/cast 活力分流
+/cast 原祖争斗者的胜利徽章
+/cast 血性狂怒
+
+
+冰柱爆发宏
+/cast 湮没
+/cast 活力分流
+
+
+湮灭分流宏
+
+
+#showtooltip 爆发 
+/cast [@mouseover, harm, exists] 爆发; 
+/cast 爆发
+
+鼠标指向爆发
+
+
+#showtooltip 血液沸腾
+/cast 活力分流
+/cast 血液沸腾
+/startattack 
+/petattack 
+/petautocaston 爪击
+
+
+绑定宝宝攻击宏
+
+#showtooltip 枯萎凋零 
+/cast !枯萎凋零
+
+视觉效果
+
+/cast 邪恶灵气
+/cast 鲜血灵气
+
+变脸宏
+
+/script PetDismiss()
+
+解散宝宝宏
+
+#showtooltip 
+/cast [nopet]亡者复生;[target=pet] 凋零缠绕
+
+没宝宝时召唤宝宝 有宝宝给宝宝加血 
+
+/cast [@arena2]绞袭
+
+/cast [@arena1]绞袭
+
+/cast [@arena3]绞袭
+
+JJC框体123
+
+/castsequence reset=20 吸血瘟疫,爆发
+
+队列施法宏 20秒重置一次 
+
+#showtooltip 灵界打击
+/cast 活力分流
+/cast [@focus,harm,exists,modifier:alt] 灵界打击; 
+/cast [@mouseover, harm, exists] 灵界打击; 
+/cast 灵界打击
+
+灵界绑定分流宏
+
+#showtooltip 冰霜之柱
+/stopcasting 
+/cancelAura 冰霜之柱 
+/cas 冰霜之柱
+
+取消冰霜之主
+
+/cast !辛达苟萨之息
+/cast 冰霜之柱
+/cast 原祖争斗者的胜利徽章
+/cast 血性狂怒
+
+猪头喷爆发宏
+
+/cast 冰霜灵气
+/cast 鲜血灵气
+
+冰切脸宏
+
+#showtooltips 黑暗模拟
+/stopcasting 
+/cast [target=focus,exists] 黑暗模拟;黑暗模拟
+
+只打给焦点的黑暗模拟
+
+#showtooltip 脓疮打击
+/cast 活力分流
+/cast 脓疮打击
+/startattack 
+/petattack 
+
+脓疮绑定分流
+
+/petmoveto  宝宝走位宏
