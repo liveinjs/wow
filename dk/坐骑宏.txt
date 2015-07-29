@@ -1,4 +1,3 @@
 /cast [combat] 死亡虹吸;
 /cast [nocombat,noflyable,nomounted]阿彻鲁斯死亡战马;[nocombat,flyable,nomounted]黑锋骸骨狮鹫;
 /dismount
-/cast 冰霜之路;
