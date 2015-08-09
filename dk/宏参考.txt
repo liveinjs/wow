@@ -1,0 +1,47 @@
+#showtooltip 凛风冲击
+/startattack 
+/cast [target=mouseover,nomodifier,exists] 凛风冲击;凛风冲击
+
+简单的鼠标指向宏，直接按对当前目标凌风，有鼠标指向的时候攻击鼠标指向目标。用途主要是战场铺疾病和打断开旗。
+#showtooltip 巫妖之躯
+/cast [target=player] 凋零缠绕
+/cast 巫妖之躯
+
+开启巫妖之躯丢死缠回血
+#showtooltip 
+/cast [target=pet] 凋零缠绕
+
+治疗宠物。
+#showtooltip 心灵冰冻
+/Cast [target=focus,harm,exists,modifier:alt]心灵冰冻 [target=mouseover, harm, exists]心灵冰冻; 心灵冰冻
+/focus [target=focus,noexists] [target=focus,dead] target
+
+直接按打断当前目标，ALT按打断焦点目标，有鼠标指向打断鼠标指向目标。如果没有焦点则打断当前目标并设置其为焦点。冰链、冰触、窒息等技能改下名字就可以用了，格式是一样的，习惯ctrl和shift的自行替换掉语句内容就可以。
+/use 15
+/use 魔法煎饼
+/target [@mouseover, exists,harm]
+/click ActionButton12
+
+/use 15
+/use 魔法煎饼
+/target [@focus, exists,harm] 
+/click ActionButton12
+/targetlasttarget 
+/click ActionButton12
+
+死亡之握宏，分别是当前目标+鼠标指向和焦点目标。跳起来按是使用滑翔翼、整合了一个吃面包。怕乱开战斗的话加入战斗判定语句。(/click ActionButton12 是使用主技能条12号键位，也就是要放一个原始的死亡之握技能在12号键。更改数字可以改变对应的键位。)
+#showtooltip 活力分流
+/cast 活力分流
+/petmoveto 
+
+活力分流绑定了一个宠物移动的命令，方便食尸鬼走位。
+#showtooltip 
+/Cast [target=focus,exists,modifier:alt]黑暗模拟 [target=mouseover, exists]黑暗模拟; 黑暗模拟
+/cancelaura 保护之手
+/cancelaura 圣盾术
+/cancelaura 寒冰屏障
+
+和上面打断宏的功能一样，区别是加入了取消无敌、冰箱、保护的命令~偷到了方便在不需要的时候点掉。
+#showtooltip 枯萎凋零
+/cancelaura 巫妖之躯
+/cast !枯萎凋零
