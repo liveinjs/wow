@@ -5,4 +5,4 @@
 /changeactionbar 3
 
 #Q键3
-/changeactionbar 3
+/changeactionbar 1
